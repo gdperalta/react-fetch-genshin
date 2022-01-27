@@ -1,0 +1,54 @@
+@use "../Utils/variables";
+
+.const-ctr {
+  width: 100%;
+  height: 80%;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.consBtn {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+  background: #282c34;
+  border: rgb(153, 153, 153) 1px solid;
+  img {
+    &:first-child {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.const-details {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  border-radius: 8px;
+  background-image: variables.$blue-gradient;
+  padding: 10px;
+}
+
+.constellation {
+  position: absolute;
+  margin: auto;
+}
+
+.show-arrow {
+  position: absolute;
+  top: 105%;
+  right: 25%;
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+}
+
+.hide-arrow {
+  display: none;
+}

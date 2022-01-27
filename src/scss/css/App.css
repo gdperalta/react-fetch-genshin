@@ -1,0 +1,294 @@
+.navBar {
+  position: fixed;
+  bottom: 5%;
+  width: 100%;
+  height: 220px;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  z-index: 2;
+}
+.navBar::-webkit-scrollbar {
+  display: none;
+}
+
+#navLeft {
+  position: fixed;
+  left: 0;
+  height: 220px;
+  width: 40px;
+  background-color: rgba(43, 43, 43, 0.6);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0;
+  z-index: 4;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navLeft:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+#navLeft img {
+  width: 40px;
+}
+
+#navRight {
+  position: fixed;
+  right: 0;
+  height: 220px;
+  width: 40px;
+  background-color: rgba(43, 43, 43, 0.6);
+  border: 0;
+  color: #a10a0a;
+  z-index: 4;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navRight:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+#navRight img {
+  width: 40px;
+}
+
+.button-ctr {
+  min-width: 100px;
+  width: auto;
+  height: 100%;
+  margin: 0 5px;
+  border: white solid;
+  overflow: hidden;
+  background-color: #282c34;
+}
+.button-ctr img {
+  width: 100%;
+}
+.button-ctr button {
+  color: white;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 0;
+}
+.button-ctr button:hover {
+  cursor: pointer;
+}
+
+.chara-ctr {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.chara-img-ctr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  z-index: 1;
+}
+.chara-img-ctr div {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: 300px;
+  height: 300px;
+  z-index: 6;
+  color: #292929;
+}
+.chara-img-ctr div img {
+  width: 100%;
+}
+.chara-img-ctr div p {
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.charaPortrait {
+  height: 100%;
+  width: auto;
+}
+
+.const-ctr {
+  width: 100%;
+  height: 80%;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.consBtn {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+  background: #282c34;
+  border: #999999 1px solid;
+}
+.consBtn img:first-child {
+  width: 100%;
+  height: auto;
+}
+.consBtn:hover {
+  cursor: pointer;
+}
+
+.const-details {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  border-radius: 8px;
+  background-image: linear-gradient(rgba(8, 8, 48, 0.507), #1456a7);
+  padding: 10px;
+}
+
+.constellation {
+  position: absolute;
+  margin: auto;
+}
+
+.show-arrow {
+  position: absolute;
+  top: 105%;
+  right: 25%;
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+}
+
+.hide-arrow {
+  display: none;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.talentBtn {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+  background: #282c34;
+  border: #999999 1px solid;
+}
+.talentBtn img:first-child {
+  width: 100%;
+  height: auto;
+}
+.talentBtn:hover {
+  cursor: pointer;
+}
+
+.active-button {
+  background-image: linear-gradient(rgba(8, 8, 48, 0.507), #1456a7);
+}
+
+.talent-desc-ctr {
+  overflow: auto;
+  background-image: linear-gradient(rgba(8, 8, 48, 0.507), #1456a7);
+  height: 290px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.talent-desc-ctr::-webkit-scrollbar {
+  display: none;
+}
+
+.desc-ctr {
+  width: 100%;
+  height: 30%;
+  position: relative;
+}
+.desc-ctr p:first-child {
+  margin-bottom: 0;
+}
+.desc-ctr h1 {
+  margin-top: 0;
+}
+.desc-ctr img {
+  margin-left: 10px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  background-color: #282c34;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-page {
+  position: relative;
+  background-image: url(https://res.cloudinary.com/genshin/image/upload/sprites/UI_LanternRite_EntrustPage_Bg03.png);
+  width: 100%;
+  height: 100%;
+}
+
+.loading-screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 10;
+}
+.loading-screen img {
+  width: 100%;
+  height: 100%;
+}
+
+#bg-image {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1300px auto;
+  opacity: 0.6;
+}
+
+.charaDetails {
+  width: 33%;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,38 @@
+@use "../Utils/variables";
+
+.btn-container {
+  display: flex;
+}
+
+.talentBtn {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+  background: #282c34;
+  border: rgb(153, 153, 153) 1px solid;
+  img {
+    &:first-child {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.active-button {
+  background-image: variables.$blue-gradient;
+}
+
+.talent-desc-ctr {
+  overflow: auto;
+  background-image: variables.$blue-gradient;
+  height: 290px;
+  padding: 10px;
+  border-radius: 4px;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
