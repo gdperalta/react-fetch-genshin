@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-fetch-genshin/static/css/main.a2ba5a1e.css",
+    "main.js": "/react-fetch-genshin/static/js/main.aa68f1b2.js",
+    "static/js/787.cff34c41.chunk.js": "/react-fetch-genshin/static/js/787.cff34c41.chunk.js",
+    "static/media/loading.gif": "/react-fetch-genshin/static/media/loading.a082db8ad70408f2890a.gif",
+    "static/media/loadingScreen.gif": "/react-fetch-genshin/static/media/loadingScreen.acc43caab5b656d4512f.gif",
+    "static/media/speechBubble.png": "/react-fetch-genshin/static/media/speechBubble.401765ce54fab7b8b420.png",
+    "static/media/errorCard.png": "/react-fetch-genshin/static/media/errorCard.51a2d535d14ac81ba4bc.png",
+    "static/media/arrow-down.png": "/react-fetch-genshin/static/media/arrow-down.81e9081c20979cd4e48c.png",
+    "static/media/navRight.png": "/react-fetch-genshin/static/media/navRight.83a48757893de8f8ca3d.png",
+    "static/media/navLeft.png": "/react-fetch-genshin/static/media/navLeft.1a76e27897beae2e9886.png",
+    "index.html": "/react-fetch-genshin/index.html",
+    "main.a2ba5a1e.css.map": "/react-fetch-genshin/static/css/main.a2ba5a1e.css.map",
+    "main.aa68f1b2.js.map": "/react-fetch-genshin/static/js/main.aa68f1b2.js.map",
+    "787.cff34c41.chunk.js.map": "/react-fetch-genshin/static/js/787.cff34c41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2ba5a1e.css",
+    "static/js/main.aa68f1b2.js"
+  ]
+}
